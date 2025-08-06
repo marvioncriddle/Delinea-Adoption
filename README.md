@@ -54,9 +54,6 @@
 
 5.	Technical Support & Integration:  Resolved firewall issues between Delinea vault and segmented infrastructure.  Filed and tracked vendor support tickets to fix platform bugs.  Led efforts to integrate mRemoteNG with Delinea for credential injection.  Migrated credentials from unsupported vaults and manual storage systems.  Developed secret templates and permission tiers aligned to departmental needs.
 
-
-**Challenges Faced**:  The broad wildcard domain (*.s3.amazonaws.com) requested by the vendor posed a significant security risk, allowing unrestricted access to a wide range of AWS services.  Additionally, Zscaler's role as a man-in-the-middle disrupted the SSL handshake by interrupting the certificate pinning process, complicating the connection.  Coordinating with the vendor to provide more specific domains was critical.  Implementing an SSL bypass for specific domains was suggested by Zscaler's documentation, meaning there would be no deep packet inspection of traffic to its domains. Vendor and website validation was an imperative, along with assuring our EDR's and firewalls were in place as a contigency.   
-
 ## Results
 **Outcomes**:  Successfully implemented SSL bypass for the vendor's application, ensuring secure and seamless connections while maintaining security posture.
 - Vault usage increased over 400% within 6 months.
